@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { SearchComponent } from './components/search/search.component';
 import { DrugsComponent } from './components/drugs/drugs.component';
 import { ShopingcartComponent } from './components/shopingcart/shopingcart.component';
+import {FormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ShopingcartComponent } from './components/shopingcart/shopingcart.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -22,9 +22,9 @@ export class AppComponent {
       count:0
     },
     {name:"Angilor",price:33,img:'./assets/drugs/angilor.png',count:0},
-    {name:"BromGexin",price:33,img:'/assets/drugs/bromgeksin.jpg',count:0},
+    {name:"BromGexin",price:33,img:'assets/drugs/bromgeksin.jpg',count:0},
     {name:"Nurofen",price:33,img:'assets/drugs/nurofen.jpg',count:0},
-    {name:"Mezim",price:33,img:'../assets/drugs/mezim.png',count:0},
-    {name:"Tempalgin",price:33,img:'../assets/drugs/tempalgin.jpg',count:0}
+    {name:"Mezim",price:33,img:'assets/drugs/mezim.png',count:0},
+    {name:"Tempalgin",price:33,img:'assets/drugs/tempalgin.jpg',count:0}
   ]
 }

@@ -1,17 +1,10 @@
 <div class="search-cont">
-  <input type="text" placeholder="Введите имя преппарата" #myInput>
+  <input
+    type="text"
+    placeholder="Введите имя преппарата" #myInput
+    [(ngModel)]="inputValue"
+  >
   <button class="btn" >Search</button>
-<!--  <p>{{myValue}}</p>-->
-<!--  <div class="drugs-container">-->
-
-<!--    <div class="card">-->
-<!--      <div class="image-container"><img [src]="" alt="" ></div>  <br>-->
-<!--      Name: <strong></strong><br> Price:<strong> </strong>-->
-<!--      <div class="btn-container"> <button class="btn-add-remove">+</button>-->
-<!--        <p></p>-->
-<!--        <button class="btn-add-remove" >-</button></div>-->
-<!--    </div>-->
-<!--  </div>-->
-
+  <p>{{inputValue}}</p>
 </div>
 
