@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SearchComponent } from './components/search/search.component';
 import { DrugsComponent } from './components/drugs/drugs.component';
+import { ShopingcartComponent } from './components/shopingcart/shopingcart.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { DrugsComponent } from './components/drugs/drugs.component';
     AppComponent,
     HeaderComponent,
     SearchComponent,
-    DrugsComponent
+    DrugsComponent,
+    ShopingcartComponent
   ],
   imports: [
     BrowserModule,
