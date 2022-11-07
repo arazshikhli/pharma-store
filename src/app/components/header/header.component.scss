@@ -1,0 +1,45 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  background-color: #adad0c;
+  transition: all 0.7s;
+
+  &:hover{
+    background-color: #438008;
+    a{
+      color: white;
+    }
+  }
+  ul{
+    list-style: none;
+    li{
+      display: inline;
+      margin-right: 20px;
+    }
+  }
+  a{
+    text-decoration: none;
+    color: #310202;
+    font-size: 20px;
+    transition:all 0.7s;
+    &:hover{
+      color: #d3c7ad;
+    }
+  }
+}
+@media(max-width: 600px){
+  .header{
+    a{
+      font-size: 14px;
+    }
+  }
+}
+.burger-btn{
+  display: none;
+}
+@media(max-width: 900px){
+  .burger-btn{
+    display: block;
+  }
+}

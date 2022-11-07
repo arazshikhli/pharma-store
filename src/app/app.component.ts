@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Output} from '@angular/core';
 export interface Drug{
   name:string
   price:number
@@ -12,6 +12,7 @@ export interface Drug{
 })
 
 export class AppComponent {
+
   drug:Drug[]=[{
     name:"Vitanin",price:20,img:'https://cdn.shopify.com/s/files/1/0066/7569/3639/products/NM2803L601VITCGUMMIESfront_2e1ab215-1d23-4e1c-a0c6-310d10a60945_1500x.png?v=1659456973',
     count:0
@@ -26,5 +27,4 @@ export class AppComponent {
     {name:"Mezim",price:33,img:'../assets/drugs/mezim.png',count:0},
     {name:"Tempalgin",price:33,img:'../assets/drugs/tempalgin.jpg',count:0}
   ]
-
 }

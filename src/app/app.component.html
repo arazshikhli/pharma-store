@@ -1,1 +1,10 @@
-<img src="assets/drugs/angilor.png" style="width: 50px">
+<app-header></app-header>
+<app-search></app-search>
+<hr />
+<div class="card-container">
+  <app-drugs
+    *ngFor="let a of drug"
+    [drug]="a" class="card-container"
+  ></app-drugs>
+</div>
+
